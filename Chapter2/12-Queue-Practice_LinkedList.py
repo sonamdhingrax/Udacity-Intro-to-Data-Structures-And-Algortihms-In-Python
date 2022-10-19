@@ -10,7 +10,8 @@ class Element:
 
 class LinkedList:
     def __init__(self, head=None):
-        pass
+        self.head = head
+        self.tail = None
 
     def insert_start(self, new_element):
         pass
